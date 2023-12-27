@@ -5,9 +5,9 @@ package testserver
 import (
 	"context"
 
-	introspection1 "github.com/99designs/gqlgen/codegen/testserver/introspection"
-	invalid_packagename "github.com/99designs/gqlgen/codegen/testserver/invalid-packagename"
-	"github.com/99designs/gqlgen/codegen/testserver/otherpkg"
+	introspection1 "github.com/eduardohumberto/test-gql/codegen/testserver/introspection"
+	invalid_packagename "github.com/eduardohumberto/test-gql/codegen/testserver/invalid-packagename"
+	"github.com/eduardohumberto/test-gql/codegen/testserver/otherpkg"
 )
 
 type Resolver struct{}

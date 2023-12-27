@@ -12,7 +12,7 @@ import (
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/eduardohumberto/test-gql/graphql"
 )
 
 type Tracer struct {

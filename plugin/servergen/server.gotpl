@@ -2,8 +2,8 @@
 {{ reserveImport "log" }}
 {{ reserveImport "net/http" }}
 {{ reserveImport "os" }}
-{{ reserveImport "github.com/99designs/gqlgen/graphql/playground" }}
-{{ reserveImport "github.com/99designs/gqlgen/graphql/handler" }}
+{{ reserveImport "github.com/eduardohumberto/test-gql/graphql/playground" }}
+{{ reserveImport "github.com/eduardohumberto/test-gql/graphql/handler" }}
 
 const defaultPort = "8080"
 

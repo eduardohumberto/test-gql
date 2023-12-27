@@ -5,8 +5,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/eduardohumberto/test-gql/codegen/templates"
+	"github.com/eduardohumberto/test-gql/internal/code"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/ast"
 )

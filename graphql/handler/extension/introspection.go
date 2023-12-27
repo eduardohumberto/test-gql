@@ -3,7 +3,7 @@ package extension
 import (
 	"context"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/eduardohumberto/test-gql/graphql"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 

@@ -10,10 +10,10 @@ resolver:
   type: Resolver
 
 autobind:
-  - "github.com/99designs/gqlgen/codegen/testserver"
-  - "github.com/99designs/gqlgen/codegen/testserver/introspection"
-  - "github.com/99designs/gqlgen/codegen/testserver/invalid-packagename"
+  - "github.com/eduardohumberto/test-gql/codegen/testserver"
+  - "github.com/eduardohumberto/test-gql/codegen/testserver/introspection"
+  - "github.com/eduardohumberto/test-gql/codegen/testserver/invalid-packagename"
 
 models:
   Email:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Email"
+    model: "github.com/eduardohumberto/test-gql/codegen/testserver.Email"

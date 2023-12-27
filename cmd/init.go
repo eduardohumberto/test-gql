@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/internal/code"
-	"github.com/99designs/gqlgen/plugin/servergen"
+	"github.com/eduardohumberto/test-gql/api"
+	"github.com/eduardohumberto/test-gql/codegen/config"
+	"github.com/eduardohumberto/test-gql/internal/code"
+	"github.com/eduardohumberto/test-gql/plugin/servergen"
 	"github.com/urfave/cli/v2"
 )
 
@@ -64,15 +64,15 @@ autobind:
 models:
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.ID
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/eduardohumberto/test-gql/graphql.ID
+      - github.com/eduardohumberto/test-gql/graphql.Int
+      - github.com/eduardohumberto/test-gql/graphql.Int64
+      - github.com/eduardohumberto/test-gql/graphql.Int32
   Int:
     model:
-      - github.com/99designs/gqlgen/graphql.Int
-      - github.com/99designs/gqlgen/graphql.Int64
-      - github.com/99designs/gqlgen/graphql.Int32
+      - github.com/eduardohumberto/test-gql/graphql.Int
+      - github.com/eduardohumberto/test-gql/graphql.Int64
+      - github.com/eduardohumberto/test-gql/graphql.Int32
 `))
 
 var schemaDefault = `# GraphQL schema example

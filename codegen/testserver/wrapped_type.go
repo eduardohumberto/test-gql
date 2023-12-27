@@ -1,6 +1,6 @@
 package testserver
 
-import "github.com/99designs/gqlgen/codegen/testserver/otherpkg"
+import "github.com/eduardohumberto/test-gql/codegen/testserver/otherpkg"
 
 type WrappedScalar = otherpkg.Scalar
 type WrappedStruct otherpkg.Struct

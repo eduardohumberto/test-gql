@@ -7,10 +7,10 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/eduardohumberto/test-gql/codegen"
+	"github.com/eduardohumberto/test-gql/codegen/config"
+	"github.com/eduardohumberto/test-gql/codegen/templates"
+	"github.com/eduardohumberto/test-gql/plugin"
 )
 
 type federation struct {
@@ -33,21 +33,21 @@ func (f *federation) MutateConfig(cfg *config.Config) error {
 	builtins := config.TypeMap{
 		"_Service": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Service",
+				"github.com/eduardohumberto/test-gql/plugin/federation/fedruntime.Service",
 			},
 		},
 		"_Entity": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+				"github.com/eduardohumberto/test-gql/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"Entity": {
 			Model: config.StringList{
-				"github.com/99designs/gqlgen/plugin/federation/fedruntime.Entity",
+				"github.com/eduardohumberto/test-gql/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"_Any": {
-			Model: config.StringList{"github.com/99designs/gqlgen/graphql.Map"},
+			Model: config.StringList{"github.com/eduardohumberto/test-gql/graphql.Map"},
 		},
 	}
 	for typeName, entry := range builtins {

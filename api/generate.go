@@ -3,12 +3,12 @@ package api
 import (
 	"syscall"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin"
-	"github.com/99designs/gqlgen/plugin/federation"
-	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/99designs/gqlgen/plugin/resolvergen"
+	"github.com/eduardohumberto/test-gql/codegen"
+	"github.com/eduardohumberto/test-gql/codegen/config"
+	"github.com/eduardohumberto/test-gql/plugin"
+	"github.com/eduardohumberto/test-gql/plugin/federation"
+	"github.com/eduardohumberto/test-gql/plugin/modelgen"
+	"github.com/eduardohumberto/test-gql/plugin/resolvergen"
 	"github.com/pkg/errors"
 )
 
